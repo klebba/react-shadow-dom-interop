@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script type="module" src="demo-badge.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h3>Colors</h3>
+    <demo-badge color="Indigo">indigo</demo-badge>
+    <demo-badge color="Purple">purple</demo-badge>
+    <demo-badge color="Yellow">yellow</demo-badge>
+    <demo-badge color="Green">green</demo-badge>
+    <demo-badge color="Gray">gray</demo-badge>
+    <demo-badge color="Red">red</demo-badge>
+
+    <h3>Status</h3>
+    <demo-badge color="NEW">new</demo-badge>
+    <demo-badge color="IN_PROGRESS">in progress</demo-badge>
+    <demo-badge color="COMPLETE">complete</demo-badge>
+    <demo-badge color="UNKNOWN">unknown</demo-badge>
+    <demo-badge color="FAILURE">failure</demo-badge>
+
+    <h3>Truncated, Borderless &amp; Loading</h3>
+    <demo-badge>long labels are truncated</demo-badge>
+    <demo-badge borderless>borderless</demo-badge>
+    <demo-badge loading>loading</demo-badge>
+
+    <h3>Menu</h3>
+    <demo-badge type="menu-trigger">Select</demo-badge>
+
+    <h3>Slotted Icons</h3>
+    <demo-badge color="Red">
+      <span slot="icon">🍓</span>
+      strawberry
+    </demo-badge>
+    <demo-badge color="Yellow">
+      <span slot="icon">🍊</span>
+      tangerine
+    </demo-badge>
+    <demo-badge color="Indigo">
+      <span slot="icon">🫐</span>
+      blueberry
+    </demo-badge>
+  </body>
+</html>

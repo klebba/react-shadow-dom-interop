@@ -1,0 +1,39 @@
+{
+  "name": "react-shadow-dom-interop",
+  "description": "Interoperation examples",
+  "private": true,
+  "license": "UNLICENSED",
+  "repository": "https://github.com/klebba/react-shadow-dom-interop",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "lint": "eslint --max-warnings=0 ."
+  },
+  "dependencies": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc",
+    "react": "rc",
+    "react-dom": "rc",
+    "typescript": "^5.2.2"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
+  },
+  "devDependencies": {
+    "@netflix/eslint-config": "^3.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.0.0",
+    "vite": "^5.3.1"
+  },
+  "contributors": [
+    {
+      "name": "Andrew Seier",
+      "email": "aseier@netflix.com"
+    },
+    {
+      "name": "Casey Klebba",
+      "email": "cklebba@netflix.com"
+    }
+  ]
+}

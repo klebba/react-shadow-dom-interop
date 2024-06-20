@@ -1,0 +1,1 @@
+# Demonstrating React 19 interoperation with Shadow DOM
