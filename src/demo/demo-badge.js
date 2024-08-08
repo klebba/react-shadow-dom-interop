@@ -1,3 +1,6 @@
+// 2024-08-08 - workaround for `vite` which currently does not support static import syntax:
+// e.g.: import stylesheet from './demo-badge.css' with { type: 'css' };
+
 const { default: stylesheet } = await import('./demo-badge.css', { with: { type: 'css' } });
 
 const template = document.createElement('template');
