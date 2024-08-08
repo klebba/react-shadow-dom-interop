@@ -14,7 +14,7 @@
     "@types/react-dom": "npm:types-react-dom@rc",
     "react": "rc",
     "react-dom": "rc",
-    "typescript": "^5.2.2"
+    "typescript": "^5.5.0"
   },
   "overrides": {
     "@types/react": "npm:types-react@rc",
@@ -23,8 +23,8 @@
   "devDependencies": {
     "@netflix/eslint-config": "^3.0.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "eslint": "^9.0.0",
-    "vite": "^5.3.1"
+    "eslint": "^9.8.0",
+    "vite": "^5.4.0"
   },
   "contributors": [
     {
