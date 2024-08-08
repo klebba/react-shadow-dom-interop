@@ -59,3 +59,10 @@ Did you know that Markdown renders HTML content? Check it out:
 <markdown-renderer markdown="*Yo dawg.*"></markdown-renderer>
 `
 ```
+
+### tech notes - [import attributes](https://github.com/tc39/proposal-import-attributes)
+
+* Vite does not support the specification - it prefers to strip the syntax [ref](https://github.com/vitejs/vite/blob/3af02bde7e7f26889d5c0eb300219c43ed1293ad/packages/vite/src/node/plugins/importAnalysis.ts#L494-L497)
+* Rollup does support the specification [ref](https://github.com/rollup/rollup/pull/4646)
+* Typescript does support the specification [ref](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-3.html#import-attributes)
+* ESLint will support the specification once it reaches Stage 4 (currently Stage 3 as of August 2024)
