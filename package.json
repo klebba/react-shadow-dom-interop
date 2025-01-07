@@ -12,19 +12,23 @@
   "dependencies": {
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc",
-    "react": "rc",
-    "react-dom": "rc",
-    "typescript": "^5.5.0"
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "typescript": "5.7.2"
   },
   "overrides": {
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc"
   },
   "devDependencies": {
-    "@netflix/eslint-config": "^3.0.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "eslint": "^9.8.0",
-    "vite": "^5.4.0"
+    "@netflix/eslint-config": "3.0.0",
+    "@vitejs/plugin-react": "4.3.4",
+    "eslint": "9.17.0",
+    "vite": "6.0.7"
+  },
+  "engines": {
+    "node": "^22.13.0",
+    "npm": "^10.9.2"
   },
   "contributors": [
     {
